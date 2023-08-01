@@ -55,6 +55,8 @@ const LandingSection = () => {
         });
         resetForm();
       }
+
+      
     },
     validationSchema: Yup.object({
       firstName: Yup.string().required("Required"),
